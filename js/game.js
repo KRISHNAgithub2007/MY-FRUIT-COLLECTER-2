@@ -75,6 +75,9 @@ class Game{
                  
                  }
                 
+                    if(allplayers.player1.score == 50 || allplayers.player2.score== 50){
+                        console.log("game ended")
+                    }
                 
                  
 
